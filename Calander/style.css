@@ -40,7 +40,7 @@ body {
 .main {
   background-color: #000;
   color: #fff;
-  padding-block: 10px;
+  padding: 20px;
   border-radius: 0 0 10px 10px;
 }
 .week-days {
@@ -60,20 +60,21 @@ body {
 }
 .days {
   width: 100%;
+
   text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
 .days div {
   width: calc(100% / 7);
-  padding: 14px;
+  padding-block: 12px;
   font-size: 14px;
 }
-.days div:hover {
+.days div:not(.empty):hover {
   border: 1px solid gray;
   cursor: pointer;
 }
 .today {
   background-color: aqua;
-  border-radius: 4px;
+  border-radius: 2px;
 }
