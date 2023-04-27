@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+main {
+  max-width: 50rem;
+  border-radius: 0.5rem;
+  padding-block: 5rem;
+  padding-inline: 2rem;
+  line-height: 1.3;
+  position: relative;
+  background-color: aquamarine;
+}
+p {
+  font-size: 1.5rem;
+}
+
+.img-container {
+  border: 5px solid aquamarine;
+  position: absolute;
+  left: 40%;
+  top: -30%;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background: url('./images/dp.jpg') no-repeat center/cover;
+}
